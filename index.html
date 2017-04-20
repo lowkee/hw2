@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Numbers and Strings</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+ </head>
+
+<body>
+ 
+  <h1>Numbers and Strings</h1>
+  
+  <form name="numberForm">
+  <label>
+  Enter numbers or text:
+  </label>
+<!--  <input id="add" type="number" name="number" value="">-->
+  <textarea id="add" type= name="number" cols="25" rows="3"></textarea>
+  <button onclick="countBtn()" type="button">Submit</button>
+  <button onclick="reset()">Reset</button>
+  <h2>The Numbers</h2>
+  <p>Count: <span id="count">0</span></p>
+  <p>Sum:  <span id="sum">0</span></p>
+  <p>Average:  <span id="average">0</span></p>
+  <h2>The Strings</h2>
+  <h3>Concatenated:</h3>
+  <table> Word Count</table>
+  </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
